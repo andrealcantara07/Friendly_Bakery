@@ -1,0 +1,21 @@
+
+  <div class="shape_products">
+ 
+<% @every.each do |dessert| %>
+        <div>
+        
+       
+        <br>
+        <img id="products" src=<%= dessert.img %>>
+        <br>
+        <%= dessert.type_of %>
+        <br>
+        <%= dessert.price %>
+        <br>
+        <button>Buy Now</button>
+        </div>
+        
+        
+<% end %>
+
+</div>

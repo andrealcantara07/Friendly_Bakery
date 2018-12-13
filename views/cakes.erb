@@ -1,0 +1,17 @@
+<div class="shape_products">
+
+<% @every.each do |cake| %>
+    <div>
+    
+    <br>
+    <img id="products" src=<%= cake.img %>>
+    <br>
+    <%= cake.type_of %>
+    <br>
+    <%= cake.price %>
+    <br>
+    <button>Buy Now</button>
+    </div>
+
+<% end %>
+</div>

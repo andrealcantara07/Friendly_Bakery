@@ -1,0 +1,17 @@
+
+ <div class="shape_products">
+<% @every.each do |cookie| %>
+    <div>
+    
+  
+    <br>
+    <img id="products" src=<%= cookie.img %>>
+    <br>
+    <%= cookie.type_of %>
+    <br>
+    <%= cookie.price %>
+    <br>
+    <button>Buy Now</button>
+    </div>
+<% end %>
+</div>
